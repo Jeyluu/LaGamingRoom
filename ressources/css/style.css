@@ -582,13 +582,97 @@ button.modif:hover{
 .confirmationresa a {
 
     color: #fbff00;
-    font-weight: bolder;
+    
 
 }
 
-.confirmationresa a:hover {
 
-    color: #ff0000;
+/* ----- CONNEXION ESPACE MEMBRE ----- */
+
+.formcreation::after {
+
+    display: block;
+    height: 2px;
+    background-color: #f7f3e3;
+    width:300px;
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.compte {
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.oublimdp {
+
+    font-style: italic;
+
+}
+
+.oublimdp a{
+
+    font-style: italic;
+    color: yellow;
+
+}
+
+/* ----- ESPACE MEMBRE ----- */
+
+.membre-page {
+
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.side-bar-left ul {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    
+    
+}
+
+.side-bar-left ul li{
+
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 5px;
+    box-shadow: 1px 1px 1px 1px #f7f3e3;
+
+}
+
+.side-bar-left a{
+
+    color: #f7f3e3;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-self:center;
+
+}
+
+.side-bar-left ul li:hover{
+    
+        transform: translateX(20px) scale(1.2);
+        transition: 0.8s;
+        box-shadow: 1px 1px 1px 1px #fac800;
+}
+
+.side-bar-left ul li a:hover{
+
+color: #fac800;
 
 }
 
@@ -980,6 +1064,101 @@ button.modif:hover{
 .bg h3{
 
     font-size: 40px;
+
+}
+
+/* ----- CONNEXION ESPACE MEMBRE ----- */
+
+.compte h2 {
+
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+
+.compte {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.creation {
+
+    display: flex;
+    
+
+}
+
+.txt-creation {
+
+    
+    box-shadow: 1px -1px 0px 1px #f7f3e3;
+    width:40% ;
+    margin: 10px 60px;
+    padding: 20px;
+    
+
+}
+
+.txt-creation:hover{
+
+    transform: scale(1.05);
+    transition: 500ms;
+    box-shadow: 1px -1px 0px 1px #a7aa01a2;
+    background-color: #a7aa013b;
+}
+
+.formcreation::after {
+
+    display: none;
+
+}
+
+.connexion {
+
+    box-shadow: -1px -1px 0px 1px #f7f3e3;
+    width:40% ;
+    margin: 10px 60px;
+    padding: 20px;
+
+}
+
+.connexion:hover{
+
+    transform: scale(1.05);
+    transition: 500ms;
+    box-shadow: -1px -1px 0px 1px #a7aa01a2;
+    background-color: #a7aa013b;
+}
+
+
+/* ----- ESPACE MEMBRE ----- */
+
+.membre-page {
+
+    display: flex;
+    flex-direction: row;
+    align-content:  center;
+    
+
+}
+
+.side-bar-left ul {
+
+    flex-direction: column;
+    align-items: stretch;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+
+.side-bar-left ul li {
+
+    padding-bottom: 40px;
 
 }
 
